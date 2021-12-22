@@ -1,0 +1,36 @@
+<html>
+<meta charser="utf-8">
+<head>
+</head>
+<body>
+	<script>
+	var t = parseInt(prompt("Введите число", 1))
+	var a = parseInt(prompt("Введите второе число", 1))
+	var b = parseInt(prompt("Введите комманду: 1 - сложить, 2 - умножить, 3 - вычесть, 4 - разделить", 0))
+	switch (b - 0){
+		case 1:
+			alert(t+a)
+			break
+		case 2:
+			alert(t*a)
+			break
+		case 3:
+			alert(t-a)
+			break
+		case 4:
+			alert(t/a)
+			break
+		default:
+			alert("Это не та комманда, которую я жду!") 
+		}
+	var p = parseInt(prompt("Задумайте число, умножьте его на 2 и прибавьте 7. После введите его сюда:", 7))
+	p = (p-7)/2
+	prompt("Вы загадали число " + p, "Да")
+	var name = prompt("Введите ваше имя", "NoName")
+	var age = parseInt(prompt("Введите год вашего рождения", "2000"))
+	var date = new Date()
+	date = date.getFullYear() - age
+	alert(name + ": " + date)
+	</script>
+</body>
+</html>
