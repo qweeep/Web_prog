@@ -1,4 +1,4 @@
-Данный репозиторий содержит рализованные идеи за 2021 год
+
 
 ## [Crypto_server](https://github.com/qweeep/Pract_3sem/tree/main/Crypto_server/Crypto_server)
 ## [FTP_server](https://github.com/qweeep/Pract_3sem/tree/main/FTP_server/FTP_server)
